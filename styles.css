@@ -1,7 +1,9 @@
 body {
-  font-family: fantasy;
   overflow-x: none;
   overflow-y: none;
+}
+.comida {
+  font-family: fantasy;
 }
 .foto-perfil-celular {
   display: none;
