@@ -1,0 +1,620 @@
+@import "variaveis";
+
+body{
+    font-family: fantasy;
+    overflow-x: none;
+    overflow-y: none;
+}
+
+.foto-perfil-celular{
+    display: none;
+}
+
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-comidas .nav-link.active:hover{
+    color: #fff;
+}
+
+header{
+background-color: #b8b5e2;
+color: #fff;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+
+.mensagem-atencao{
+   font-family:'Source Serif 4"', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.metodo{
+    display: flex;
+    justify-content: center;
+
+    .row{
+        border-bottom: solid gray 1px;
+       
+    }
+
+    .card{
+        border-radius: 20px;
+        width: 35rem;
+
+        h6{
+            padding-top: 48px;
+            margin-bottom: 4px;
+        }
+    }
+    .icone{
+        font-size: 110px;
+        margin: 0, auto;
+        vertical-align: middle;
+        color: #C89DD8;
+        i{
+          color:  #C89DD8;
+          font-size: 90px;
+        }
+    }
+}
+
+.textovermelho{
+    color: #C89DD8;
+}
+
+span{
+    font-weight:bolder
+}
+
+#apresentacao{
+
+    background-image: url('./build/img/plano-de-fundo/background-escritorio.png'); //./img/plano-de-fundo/background-escritorio.png
+    background-repeat: repeat-y;
+    overflow-y: hidden;
+  
+    h2{
+        font-size: 42px;
+        font-weight: bolder;
+    }
+    display: flex;
+    justify-content: center;
+    h2{
+        color: #C89DD8;
+        span{
+            font-weight:bolder
+        }
+    }
+    span{
+        font-weight:bolder;
+        
+    }
+    .col-lg-5{
+        
+        height: 520px;
+        
+        overflow-y: hidden;
+        
+        .container{
+            
+            ul{
+                
+                flex-wrap: wrap;
+            
+            }
+            
+            ul li{
+                max-width: 80%;
+                list-style: none;
+                position: relative;
+                
+                overflow-y: hidden;
+            }
+            
+            ul li img{
+                
+                width: 100%;
+                height: 100%;
+            }
+            
+        }
+        
+        
+    }
+
+    }
+   
+#metodo{
+    background-image: url('./build/img/plano-de-fundo/tela-2-teste.jpg'); //'./img/plano-de-fundo/tela-2-teste.jpg'
+    background-size: cover;
+    
+    background-repeat: round;
+
+    .card{
+        width: 35rem;
+    }
+  
+}
+
+.navbar-brand{
+    font-family:"Pacifico", Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.section-title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+button a{
+    text-decoration: none;
+    font-style: none;
+    color: #fff
+}
+
+.bi-whatsapp{
+    color: green;
+    size: 10px;
+}
+
+
+.botao-nutri{
+    height: 60px;
+    width: 450px;
+    border-radius: 100px;
+    border-color: @corsecundaria;
+    background-color: @corprimaria;
+    
+}
+
+.botao-nutri:hover{
+    border-color: @corprimaria;
+    background-color:  @corsecundaria;
+}
+
+#Resultados{
+    background-image: url(./build/img/mensagens-de-zap/random-whatsapp\ background.jpg); //./img/mensagens-de-zap/random-whatsapp\ background.jpg
+    position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.carousel-inner{
+    border: 4px solid @corsecundaria;
+    border-radius: 1%;
+}
+
+#Resultados img{
+    
+    
+    cursor:grab;
+}
+
+#Resultados button{
+    height: 60px;
+    width: 450px;
+    border-radius: 100px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#para-quem{
+    background-color: @corprimaria;
+    background-image: url(./build/img/plano-de-fundo/creme2.jpg);
+    background-size: cover;
+    color: #fff;
+    h2{
+        color: @corsecundaria;
+    }
+    
+    .border-danger{
+        border-color: @corsecundaria !important;
+        border-width: 0.5em;
+    }
+    .card{
+        border-radius: 15%;
+        height: 80%;
+        max-width: 18rem;
+        .subir-circulo{
+            position: relative;
+            bottom: 4em;
+        }
+        .text-danger{
+            color: #212529 !important;
+        }
+        
+        h1{
+            font-size: 82px;
+            display: flex;
+            
+            justify-content: center;
+            .circle{
+                background-color: @corsecundaria;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                overflow: hidden;
+                position: relative;
+                align-content: center;
+                border: 2px solid @corsecundaria;
+                color: #fff;
+                
+            }
+        }
+        .card-text{
+            position: relative;
+            bottom: 3.5em;
+        }
+    }
+}
+
+#quem-sou{
+    background-color: @corsecundaria;
+    background-image: url(./build/img/plano-de-fundo/creme.avif);
+    .container{
+        display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+        .card{
+            height: 32em ;
+            width: 62em ;
+            
+            .texto{
+                padding-left: 3em;
+            }
+            
+            .imagem{
+                padding-top: 0.3em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .circle{
+                border-radius: 50%;
+                width: 400px;
+                height: 500px;
+                overflow: hidden;
+                position: relative;
+                align-content: center;
+                border: 8px solid @corsecundaria;
+                color: #fff;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        }
+    }
+
+    .bg-danger{
+        
+            background-color: @corprimaria !important;
+        
+       
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+   
+    #apresentacao{
+        width: 100%;
+        background-image: url('./build/img/plano-de-fundo/background-escritorio.png');
+        background-size:cover;
+
+
+        .col-md-5{
+        
+            height: auto;
+           flex: content;
+            overflow-y: hidden;
+            
+            .container{
+                overflow-y: hidden;
+                ul{
+                    height: auto;
+                    flex-wrap: ;
+                    
+                    
+                }
+                
+                ul li{
+                    max-width: 100%;
+                    list-style: none;
+                    position: absolute;
+                    width: 330px;
+                    overflow-y: hidden;
+                    left: 30em;
+                    top: 5.7em;
+                }
+                
+                ul li img{
+                    
+                    width: 100%;
+                    height: 100%;
+                }
+                
+            }
+            
+            
+        }
+
+
+    }
+
+    #Resultados button{
+        height: 60px;
+        width: 450px;
+        border-radius: 100px;
+    }
+
+    #quem-sou{
+   
+        .container{
+           
+            
+            .card{
+                height: 45em ;
+                width: 100% ;
+                
+                .texto{
+                    h4{
+                        width: 90%;
+                        text-align: center;
+                        padding-bottom: 1em;
+                    }
+                    p{
+                        text-align:start;
+                        
+                        
+                        font-size:17px;
+                    }
+                }
+                
+                .imagem{
+                    padding-top: 0.3em;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .circle{
+                    border-radius: 10%;
+                    width: 100%;
+                    height: 50%;
+                    overflow: hidden;
+                    position: relative;
+                    align-content: center;
+                    border: 2px solid #ca9a21;
+                    color: #fff;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            }
+        }
+    
+
+
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+#apresentacao{
+    height: 50em;
+    background-image: url("./build/img/plano-de-fundo/background-sm-escritorio-vazio.png");
+    background-size: cover;
+    overflow-x: hidden;
+    
+    .pb-3{
+        padding-bottom: 8px !important;
+    }
+
+    align-content: center;
+    
+    text-align: center;
+    .container{
+        align-content: center;
+
+    .fs-sl{
+        font-size: medium;
+    }
+
+    }
+
+    .container{
+        .col-lg-5{
+            width: 100%;
+            height: 280px;
+        }
+    }
+    
+    li{
+        
+        width: 20em;
+        left: 2.0em;
+        top: 0em;
+       
+
+    }
+    
+}
+
+
+    .carousel-item img{
+    height: 280px;
+}
+header button span{
+    font-size: 16px;
+    
+}
+
+header ul{
+    margin-top: 10px;
+}
+
+
+#metodo{
+
+    .card{
+        width: 22rem;
+        h6{
+            margin-bottom: 100em;
+        }
+    }
+}
+
+.metodo{
+   
+    display: flex;
+    justify-content: center;
+    
+    .row{
+        border-bottom: solid gray 1px;
+        padding-bottom: 1em;
+    }
+
+    .card{
+        border-radius: 20px;
+        text-align: center;
+        
+
+        .col-md-3{
+            height: 7.5em;
+        }
+       .col-md-8{
+        padding-bottom: 1em;
+       }
+    }
+    .icone{
+        font-size: 110px;
+        margin: 0, auto;
+        vertical-align: middle;
+        
+        
+    }
+    .botao-nutri{
+        width: 20em;
+        i{
+            display: none;
+        }
+    }
+
+  
+}
+
+#para-quem{
+    
+    .container{
+        h2{
+            font-size: 30px;
+        }
+        
+        .col-lg-3{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 1.5em;
+        }
+        
+        
+    }
+
+ }
+
+
+#Resultados button{
+    height: 60px;
+    width: 350px;
+    border-radius: 100px;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+.botao-nutri{
+    height: 60px;
+    width: 350px;
+    border-radius: 100px;
+    
+}
+
+#quem-sou{
+    overflow-x: hidden;
+    .container{
+        
+        .card{
+            height: 80em ;
+            width: 100% ;
+            
+            .texto{
+                h4{
+                    width: 90%;
+                    text-align: center;
+                    padding-bottom: 1em;
+                }
+                p{
+                    align-items: center;
+                    text-align:start;
+                    
+                    
+                    font-size:17px;
+                }
+            }
+            
+            .imagem{
+                padding-top: 0.3em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .circle{
+                border-radius: 20%;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                position: relative;
+                align-content: center;
+                color: #fff;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        }
+    }
+
+}
+
+
+}
+
+
+
+.source-serif-4-texto {
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    }
