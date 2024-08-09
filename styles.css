@@ -150,6 +150,7 @@ button a {
   text-decoration: none;
 }
 #para-quem {
+  font-family: fantasy;
   background-color: #B8B5E2;
   background-image: url(./build/img/plano-de-fundo/creme2.jpg);
   background-size: cover;
