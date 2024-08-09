@@ -56,6 +56,7 @@ span {
 }
 #apresentacao {
   background-image: url('./build/img/plano-de-fundo/background-escritorio.png');
+  background-size: cover;
   background-repeat: repeat-y;
   overflow-y: hidden;
   display: flex;
@@ -150,7 +151,6 @@ button a {
   text-decoration: none;
 }
 #para-quem {
-  
   background-color: #B8B5E2;
   background-image: url(./build/img/plano-de-fundo/creme2.jpg);
   background-size: cover;
