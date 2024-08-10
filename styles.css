@@ -3,7 +3,7 @@ body {
   overflow-y: none;
 }
 .comida {
-  font-family: fantasy;
+  font-family: "Source Serif 4";
 }
 .foto-perfil-celular {
   display: none;
