@@ -18,8 +18,12 @@ body {
 header {
   background-color: #b8b5e2;
   color: #fff;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+}
+header p {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .mensagem-atencao {
   font-family: 'Source Serif 4"', 'Arial Narrow', Arial, sans-serif;
@@ -137,7 +141,7 @@ button a {
   background-repeat: no-repeat;
 }
 .carousel-inner {
-  border: 4px solid #C89DD8;
+  border: 0.5em double #C89DD8;
   border-radius: 1%;
 }
 #Resultados img {
@@ -304,6 +308,10 @@ button a {
   }
 }
 @media (max-width: 767px) {
+  header p {
+    font-size: 0.9em;
+    text-align: center;
+  }
   #apresentacao {
     height: 50em;
     background-image: url("./build/img/plano-de-fundo/background-sm-escritorio-vazio.png");
