@@ -141,8 +141,8 @@ button a {
   background-repeat: no-repeat;
 }
 .carousel-inner {
-  border: 0.5em double #C89DD8;
-  border-radius: 1%;
+  border: 0.4em solid #C89DD8;
+  border-radius: 10%;
 }
 #Resultados img {
   cursor: grab;
