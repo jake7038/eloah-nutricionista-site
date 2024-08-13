@@ -15,13 +15,13 @@ body {
 .nav-comidas .nav-link.active:hover {
   color: #fff;
 }
-header {
+footer {
   background-color: #b8b5e2;
   color: #fff;
   padding-bottom: 0.1em;
   padding-top: 0.1em;
 }
-header p {
+footer p {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
@@ -308,7 +308,7 @@ button a {
   }
 }
 @media (max-width: 767px) {
-  header p {
+  footer p {
     font-size: 0.9em;
     text-align: center;
   }
@@ -341,10 +341,10 @@ button a {
   .carousel-item img {
     height: 280px;
   }
-  header button span {
+  footer button span {
     font-size: 16px;
   }
-  header ul {
+  footer ul {
     margin-top: 10px;
   }
   #metodo .card {
