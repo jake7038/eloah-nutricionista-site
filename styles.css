@@ -1,6 +1,5 @@
 body {
   overflow-x: none;
-  overflow-y: none;
 }
 .comida {
   font-family: "Source Serif 4";
@@ -82,7 +81,6 @@ span {
 }
 #apresentacao .col-lg-5 {
   height: 520px;
-  overflow-y: hidden;
 }
 #apresentacao .col-lg-5 .container ul {
   flex-wrap: wrap;
@@ -91,7 +89,6 @@ span {
   max-width: 80%;
   list-style: none;
   position: relative;
-  overflow-y: hidden;
 }
 #apresentacao .col-lg-5 .container ul li img {
   width: 100%;
@@ -244,30 +241,18 @@ button a {
     width: 100%;
     background-image: url('./build/img/plano-de-fundo/background-escritorio.png');
     background-size: cover;
-  }
-  #apresentacao .col-md-5 {
-    height: auto;
-    flex: content;
-    overflow-y: hidden;
-  }
-  #apresentacao .col-md-5 .container {
-    overflow-y: hidden;
-  }
-  #apresentacao .col-md-5 .container ul {
-    height: auto;
+    overflow-y: hidden ;
+    overflow-x: hidden;
   }
   #apresentacao .col-md-5 .container ul li {
-    max-width: 100%;
     list-style: none;
-    position: absolute;
-    width: 330px;
-    overflow-y: hidden;
-    left: 30em;
-    top: 5.7em;
+    position: relative;
+    right: 1.5em;
+    top: 5em;
   }
   #apresentacao .col-md-5 .container ul li img {
-    width: 100%;
-    height: 100%;
+    height: 40em ;
+    width: auto;
   }
   #Resultados button {
     height: 60px;
