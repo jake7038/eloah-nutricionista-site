@@ -3,7 +3,8 @@
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
     "less": "^4.2.0",
-    "less-watch-compiler": "^1.16.3"
+    "less-watch-compiler": "^1.16.3",
+    "scrollreveal": "^4.0.9"
   },
   "name": "site-eloah-ribeiro",
   "version": "1.0.0",

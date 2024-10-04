@@ -432,3 +432,6 @@ button a {
   font-weight: bold;
   font-style: normal;
 }
+.efeito-generic {
+  display: hidden;
+}
